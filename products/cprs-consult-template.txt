@@ -1,0 +1,62 @@
+---------------------------------------------
+PULMONARY EMBOLISM RESPONSE TEAM CONSULTATION
+---------------------------------------------
+
+Indication: [segmental | submassive | massive]
+Referring Physician:
+PERT Fellow:
+PERT Attending:
+
+----------------
+RELEVANT HISTORY
+----------------
+
+- Age
+- Sex
+- PE diagnosis modality: [ CT PE | VQ Scan | Clinical ]
+- History of cancer
+- History of heart failure
+- History of lung disease
+
+-----------------
+RELEVANT FINDINGS
+-----------------
+
+# Automated
+- Heart rate
+- Blood Pressure
+- Respiratory Rate
+- Oxygen Saturation
+- Supplemental Oxygen
+- Hemoglobin
+- Platelets
+- INR
+- Creatinine
+- Troponin I
+- NT-proBNP
+
+# User Entered
+- Acute Altered Mental Status: [ yes | no ]
+- CXR
+- CT PE
+- Echocardiogram (if available)
+- Bilateral Lower Extremity Venous Doppler
+
+---------------------------------
+CONTRAINDICATIONS TO THROMBOLYTIC THERAPY
+---------------------------------
+
+ABSOLUTE: [ ischemic CVA < 3 months | structural cerebrovascular disease (e.g. AVM, malignancy) | recent spinal or brain surgery | head trauma with fracture or brain injury | active major bleeding | bleeding diathesis | suspected aortic dissection ]
+
+RELATIVE: [ ischemic CVA >= 3 months | minor head trauma | major non-CNS surgery < 3 weeks | recent non-compressible vessel trauma or puncture | recent internal bleeding < 4 weeks | platelets < 100k | current use of oral anticoagulation | BP > 180/110 | > 75 years old | dementia | pregnancy | traumatic or prolonged CPR ]
+
+---------------
+RECOMMENDATIONS
+---------------
+
+PESI Score: [ PESI score ]
+PE Risk Classification: [ low-risk | ... ]
+Proposed Recommendation: [ heparin AC | systemic thrombolysis | catheter directed thrombolysis | catheter thrombectomy | surgical embolectomy | ECMO ]
+Bed: [ floor | MICU | transfer to OSH ]
+
+* Not finalized until signed by attending
