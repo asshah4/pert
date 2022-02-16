@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Jesse Brown VA</title>
+    <meta charset="utf-8" />
+    <meta name="date" content="2022-02-16" />
+    <script src="jbva-pert-residents_files/header-attrs-2.11/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: left, middle, inverse, title-slide
+
+# Jesse Brown VA
+## Pulmonary Embolism Response Team
+### February 16, 2022
+
+---
+
+
+
+
+
+
+
+
+.pull-left[
+## Purpose
+
+- Create standardized approach to management of PE between all services, both surgical and medical
+
+- Improve speed/efficiency in managing common diagnosis, both the lower and higher risk entities
+
+- Simplify decision making in PE diagnosis and treatment
+]
+
+.pull-right[
+## Objectives
+
+1. Understand the overall purpose of a PERT at the JBVA
+
+1. Appreciate the basic strategies involved in diagnosis and management of PE in combination with PERT
+
+1. Know how to activate or consult the PERT at the JBVA 
+]
+
+_Pulmonary Embolism Response Team (PERT) at the Jesse Brown VA (JBVA) is now operating as of 02/01/22. This will mirror the PERT that is being developed at UIH._
+
+---
+
+![pert](../reference/pert-team-overview.png)
+
+---
+
+![risk](../reference/pe-severity.png)
+
+.pull-left[
+The basis of the PERT activation is to risk-stratify individuals with PE and help to decide on management. 
+]
+
+.pull-right[
+__Additional features__: 
+
+- clot in transit
+- high clot burden or clot location
+- risk for hemodynamic compromise
+- evaluation in context (e.g. of ESRD status or chronic PH status)
+]
+
+---
+### Interventions
+
+| Intervention | Description |
+|:--- |:--- |
+| PO anticoagulation | treatment of almost all PE if candidate for AC |
+| IV anticoagulation | treatment in acute setting or while diagnosis is being pursued, or prior to procedural intervention |
+| systemic thrombolytics | treatment in setting of massive PE with no known contraindications |
+| catheter directed thrombolytics | treatment in setting of submassive PE with reduced risk of bleeding complications (compared to systemic lytics) but without known contraindications |
+| percutaneous thrombectomy | treatment when clot may be amenable to aspiration or removal (safer in patients that cannot tolerate AC) |
+
+---
+class: middle, inverse
+# Consult Structure
+
+---
+
+![consult location](../reference/consult-location-1.png)
+
+The consult order request can be found under __Inpatient Consults__ in CPRS.
+
+---
+
+![consult location](../reference/consult-location-2.png)
+
+Additionally, under __Medical Services__, there is another location for the consult as __Inpatient Pulmonary Embolism__
+
+---
+
+![consult location](../reference/consult-location-5.png)
+
+This should allow most providers, from all specialties both surgical and medical, to be able to locate and request a consult. 
+
+This should be accompanied by a page as well (the number will be listed on the consult order as well).
+
+---
+
+![consult request](../reference/pert-consult.jpg)
+
+Contains the major information needed to order the consult, particularly markers of cardiac strain and objective evidence of clot burden.
+
+---
+
+.pull-left[
+# Thank you
+
+_In particular thanks to the UIC/JBVA residents and fellows, the PERT fellows, attendings and research team, Dr. Zar and the UIC IM leadership, and the JBVA leadership._
+
+![ct pe](../reference/ct-pe.gif)
+]
+
+.pull-right[
+![successful clot removal](../reference/thrombectomy-example.jpeg)
+]
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightLines": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
