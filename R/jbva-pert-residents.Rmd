@@ -130,3 +130,7 @@ _In particular thanks to the UIC/JBVA residents and fellows, the PERT fellows, a
 ![successful clot removal](../reference/thrombectomy-example.jpeg)
 ]
 
+.footnote[
+Contact for questions or concerns, can email __ashah282@uic.edu__
+]
+
