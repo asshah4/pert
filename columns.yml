@@ -1,0 +1,67 @@
+level1:
+  ID:
+    desc: Unique identifier
+    valid:
+      - col_vals_not_null()
+      - col_is_numeric()
+  IND:
+    desc: Binary indicator
+    valid:
+      - col_is_numeric()
+      - col_vals_in_set(0:1)
+  N:
+    desc: Count of an event occurrence
+    valid:
+      - col_vals_gte(0)
+  AMT:
+    desc: Non-negative, summable quantity
+    valid:
+      - col_is_numeric()
+      - col_vals_gte(0)
+  VAL:
+    desc: Value
+    valid:
+      - col_is_numeric()
+  CAT:
+    desc: Category
+    valid:
+      - col_is_character()
+  CD:
+    desc: System-generated code
+    valid:
+      - col_is_character()
+  DT:
+    desc: Calendar date in YYYY-MM-DD format
+    valid:
+      - col_is_date()
+  TM:
+    desc: Time stamp of event
+level2:
+  MRN:
+    desc: Specific patient ID
+  HOSP:
+    desc: Hospital or site
+  DEMO:
+    desc: Demographic factors
+  HX:
+    desc: Past medical history
+  MED:
+    desc: Medications
+  SX:
+    desc: Presenting symptoms
+  VS:
+    desc: Vital signs
+  LAB:
+    desc: Lab values
+  TEST:
+    desc: Complex diagnostic testing
+  RISK:
+    desc: Generated risk factor scores
+  AC:
+    desc: Anticoagulation methods
+  TX:
+    desc: Intervention or treatment
+  DX:
+    desc: Diagnosis of pulmonary embolism
+level3:
+  "\\d{4}": []
